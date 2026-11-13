@@ -1,10 +1,10 @@
-# S_HappyBirthday_2027 · 露比的生日护照
+# S_HappyBirthday_2026 · 露比的生日护照
 
 一个用 Vite + React + TypeScript 做的生日网页。
 
 **流程**：封面 → 世界地图 → 点城市 → 播放视频 → 自动盖章 → 集齐 7 枚 → 打开终章。
 
-- GitHub 仓库：`https://github.com/derekshaoai/S_HappyBirthday_2027`
+- GitHub 仓库：`https://github.com/derekshaoai/S_HappyBirthday_2026`
 - 仓库是 **private**，需要仓库 owner 把你的 GitHub 账号加为 collaborator，或者直接使用 owner 的账号。
 - 网页不需要后端、数据库或 API key；视频、音乐、地图数据都在仓库里。
 
@@ -35,8 +35,8 @@ npm -v
 ### 2. 把代码拉到电脑上
 
 ```bash
-git clone https://github.com/derekshaoai/S_HappyBirthday_2027.git
-cd S_HappyBirthday_2027
+git clone https://github.com/derekshaoai/S_HappyBirthday_2026.git
+cd S_HappyBirthday_2026
 ```
 
 如果提示没有权限：
@@ -168,7 +168,7 @@ public/media/<城市>/video.mp4
 ## 项目结构
 
 ```text
-S_HappyBirthday_2027/
+S_HappyBirthday_2026/
 ├─ public/
 │  ├─ data/countries-110m.json   # Natural Earth 世界地图数据
 │  ├─ media/
