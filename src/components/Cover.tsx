@@ -63,7 +63,7 @@ export function Cover({ onStart }: Props) {
                   ✦
                 </div>
                 <div>
-                  <div className="passport-org">POBY &amp; LOOPY</div>
+                  <div className="passport-org">LOOPY &amp; POBY</div>
                   <div className="passport-type">BIRTHDAY PASSPORT</div>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export function Cover({ onStart }: Props) {
                   </svg>
                   <Character
                     src="/media/characters/passport-photo.webp"
-                    alt="波比和露比的护照照片"
+                    alt="露比和波比的护照照片"
                     className="passport-photo-img"
                   />
                 </div>
@@ -123,7 +123,7 @@ export function Cover({ onStart }: Props) {
         </div>
       </div>
 
-      <div className="cover-foot">POBY &amp; LOOPY · BIRTHDAY EDITION · 2026</div>
+      <div className="cover-foot">LOOPY &amp; POBY · BIRTHDAY EDITION · 2026</div>
     </motion.div>
   );
 }

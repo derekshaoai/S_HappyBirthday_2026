@@ -81,7 +81,7 @@ export function PassportPanel({ done, count, onOpenTrip, onOpenFinale }: Props) 
       )}
 
       <div className="panel-foot">
-        <span>POBY &amp; LOOPY · 2026</span>
+        <span>LOOPY &amp; POBY · 2026</span>
         <span>{TOTAL} STOPS · 3 COUNTRIES</span>
       </div>
     </aside>

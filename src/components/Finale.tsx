@@ -96,7 +96,7 @@ export function Finale({ onBack, onReset }: Props) {
 
         <Character
           src="/media/characters/duo-celebrate.webp"
-          alt="波比和露比一起庆祝生日"
+          alt="露比和波比一起庆祝生日"
           className="finale-duo"
           fallback={<Cake />}
         />
