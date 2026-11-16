@@ -1256,12 +1256,6 @@ button:focus-visible {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
-.poster-sub {
-  color: rgba(75, 58, 47, 0.68);
-  font-size: 11px;
-  letter-spacing: 0.06em;
-}
-
 .poster-play {
   position: absolute;
   top: 50%;
@@ -1298,10 +1292,6 @@ button:focus-visible {
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
 }
 
-.poster-art.dark .poster-sub {
-  color: rgba(255, 243, 214, 0.72);
-}
-
 .poster-art.dark .poster-stop {
   background: rgba(20, 26, 44, 0.62);
   color: #f3dfb4;
@@ -1333,10 +1323,6 @@ button:focus-visible {
 
 .poster-art.compact .poster-city {
   font-size: 24px;
-}
-
-.poster-art.compact .poster-sub {
-  font-size: 9px;
 }
 
 /* -------------------------------------------------------
@@ -1398,15 +1384,8 @@ button:focus-visible {
   letter-spacing: 0.2em;
 }
 
-.trip-detail-body h2 {
-  margin: 8px 0 2px;
-  font-family: var(--font-display);
-  font-size: 34px;
-  font-weight: 600;
-}
-
 .trip-detail-body h3 {
-  margin: 0 0 12px;
+  margin: 8px 0 12px;
   color: var(--ink-soft);
   font-size: 16px;
   font-weight: 600;
@@ -2040,10 +2019,6 @@ button:focus-visible {
 
   .trip-detail-body {
     padding: 18px 20px 22px;
-  }
-
-  .trip-detail-body h2 {
-    font-size: 28px;
   }
 
   .provence-card {

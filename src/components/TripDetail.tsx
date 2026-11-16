@@ -32,7 +32,6 @@ export function TripDetail({ trip, done, onClose, onPlay }: Props) {
           <div className="detail-kicker">
             STOP {trip.stop} · {trip.date} · {trip.country}
           </div>
-          <h2>{trip.city}</h2>
           <h3>{trip.title}</h3>
           <p className="detail-memory">{trip.memory}</p>
 

@@ -307,7 +307,6 @@ export function PosterArt({ trip, done = false, onPlay, compact = false }: Props
 
       <div className="poster-bottom">
         <span className="poster-city">{trip.city}</span>
-        <span className="poster-sub">{trip.sub}</span>
       </div>
 
       {onPlay && (
