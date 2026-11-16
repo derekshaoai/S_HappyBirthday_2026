@@ -203,12 +203,11 @@ S_HappyBirthday_2026/
 ├─ package-lock.json
 ├─ tsconfig.json
 ├─ vite.config.ts
+├─ .gitignore
 └─ README.md
 ```
 
-> 这个仓库按 owner 的要求**没有包含 `.gitignore` 和 `prompts/` 文件夹**。
-> 如果你要在另一台电脑继续提交代码，建议自己本地建一个 `.gitignore`，至少排除：
-> `node_modules/`、`dist/`、`.DS_Store`。
+> 这个仓库包含 `.gitignore`（排除 `node_modules/`、`dist/`、`.preview/`、`.DS_Store`、`prompts/` 等），但没有上传 `prompts/` 文件夹本身。
 
 ---
 
@@ -261,4 +260,4 @@ Vercel / Netlify / Cloudflare Pages 都可以：
 
 - 仓库是 public，方便在任何电脑上直接 clone 或下载；但它仍然是私人的生日礼物项目，请不要公开传播或商用。
 - 角色形象来自《小企鹅宝露露》同人创作；请保留在私人范围内。
-- 仓库没有 `.gitignore` 和 `prompts/`；提示词素材只在 owner 本地保留。
+- 仓库没有 `prompts/`；提示词素材只在 owner 本地保留。
