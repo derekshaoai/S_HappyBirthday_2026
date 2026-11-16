@@ -39,7 +39,7 @@ export function MapView({
             ✦
           </div>
           <div>
-            <div className="brand-title">Loopy &amp; Poby</div>
+            <div className="brand-title">Loopy &amp; Poby&apos;s Travel Journal</div>
             <div className="brand-sub">给露比的生日护照</div>
           </div>
         </div>
