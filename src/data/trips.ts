@@ -20,25 +20,25 @@ export type Trip = {
 
 /**
  * 站点按真实旅行顺序排列：
- * 2025.12 德钦 → 2026.04 布达佩斯 → 2026.05 顺德
+ * 2025.12 香格里拉 → 2026.04 布达佩斯 → 2026.05 顺德
  * → 2026.09 普罗旺斯（Cassis / Aix / Cagnes）→ 2026.10 大连
  */
 export const TRIPS: Trip[] = [
   {
     id: "deqin",
-    city: "德钦",
+    city: "香格里拉",
     country: "中国",
     stop: "01",
     date: "2025.12",
-    coords: [98.65, 28.45],
+    coords: [99.71, 27.83],
     title: "肚子里有一朵云",
-    sub: "梅里雪山 · 第一次高原",
+    sub: "独克宗古城 · 第一次高原",
     memory:
-      "你说要看日照金山。结果山没高反，你先高反了。晚上在医院，我们盯着那张 CT 看了很久，最后发现——你只是肚子里有太多气。",
+      "露比第一次上高原，高反来得又急又重。波比看着露比，心里怕得不行，生怕她身体出大事。幸好医院的检查结果给露比和波比吃了一颗定心丸——胸口发闷，可能只是肚子里攒了太多气。",
     accent: "#e3a15e",
     accentSoft: "#f8e4cc",
     video: "/media/deqin/video.mp4",
-    mapLabel: "德钦",
+    mapLabel: "香格里拉",
     mapSide: "left",
     mapDy: -20,
   },
@@ -52,7 +52,7 @@ export const TRIPS: Trip[] = [
     title: "多瑙河上的毯子",
     sub: "多瑙河 · 夜游船",
     memory:
-      "夜里的多瑙河很冷，你把毯子分我一半。船开到国会大厦前面，整栋楼亮成金色，你说像一块会发光的蛋糕。",
+      "夜里的多瑙河很冷。船开到国会大厦前，别的情侣都在摆姿势拍照，只有露比和波比裹着同一条毯子，在金色灯光里紧紧抱着，安安静静，谁也没说话。",
     accent: "#d9a441",
     accentSoft: "#1b2440",
     video: "/media/budapest/video.mp4",
@@ -71,7 +71,7 @@ export const TRIPS: Trip[] = [
     title: "副驾公主的终点站",
     sub: "农庄 · 五指毛桃鸡煲",
     memory:
-      "你坐在副驾，墨镜比脸还大，一路指挥我开去农庄。鸡煲端上来的时候，你说这才是 passenger princess 的终点站。",
+      "露比说想吃最地道的东西，波比就开车带上露比，去找最有本地特色的餐馆和农庄。五指毛桃鸡煲那股鲜甜，到现在都忘不掉。",
     accent: "#e08a6c",
     accentSoft: "#f8dfd4",
     video: "/media/shunde/video.mp4",
@@ -86,10 +86,10 @@ export const TRIPS: Trip[] = [
     stop: "05",
     date: "2026.09",
     coords: [5.54, 43.21],
-    title: "海里的第一次牵手",
-    sub: "峡湾 · 第一次一起潜水",
+    title: "拉练的终点是海",
+    sub: "峡湾 · 第一次一起浮潜",
     memory:
-      "你说只是下去看看小鱼，结果全程抓着我的手。没关系，下次还带你。",
+      "露比和波比的旅行，像一场拉练。先一起徒步，终点是路线尽头的海湾；然后穿上那身神奇的湿衣漂在海面上，小鱼就在脚边游来游去。",
     accent: "#5fa8b8",
     accentSoft: "#ddf0f2",
     video: "/media/cassis/video.mp4",
@@ -105,7 +105,7 @@ export const TRIPS: Trip[] = [
     title: "把山画下来",
     sub: "塞尚的山 · 水彩与酒",
     memory:
-      "你画的山很像山，我画的像一团蓝色的云。酒庄老板说，抽象派也挺好。",
+      "露比总能想出又有诗意、又特别有当地味道的活动。在塞尚写生过的花园里，画他画过的同一座山——换作波比一个人，大概一辈子也想不出这种事。",
     accent: "#a98bb5",
     accentSoft: "#ede4f2",
     video: "/media/aix/video.mp4",
@@ -121,7 +121,7 @@ export const TRIPS: Trip[] = [
     title: "红土场的收尾工作",
     sub: "红土场 · 打完球要干活",
     memory:
-      "球没打几个，活干了不少。你浇水，我拖地，夕阳把红土照得像橘子粉。",
+      "这是露比和波比第二次回到 Cagnes，又挖出了这座小城的新宝藏：红土网球场。拖地、浇水的仪式感，是特别新奇的体验。",
     accent: "#d97757",
     accentSoft: "#f6ded4",
     video: "/media/cagnes/video.mp4",
@@ -134,10 +134,10 @@ export const TRIPS: Trip[] = [
     stop: "07",
     date: "2026.10",
     coords: [121.61, 38.91],
-    title: "星星眼的日料",
-    sub: "日料店 · 海胆与海肠",
+    title: "在家当大王",
+    sub: "日料店 · 海鲜盛宴",
     memory:
-      "你说只是随便吃点，结果海胆一上来，眼睛比海胆还亮。海肠也点了，你说这才是大连的味道。",
+      "在大连的住处，露比和波比当起了大王：无所事事，吃了睡、睡了吃。现在想想，这才是旅行最舒服的状态。",
     accent: "#e08a4a",
     accentSoft: "#1b2636",
     video: "/media/dalian/video.mp4",
@@ -157,9 +157,9 @@ export const PROVENCE = {
   date: "2026.09",
 };
 
-/** 真实旅行航线：德钦 → 布达佩斯 → 顺德 → 普罗旺斯 → 大连 */
+/** 真实旅行航线：香格里拉 → 布达佩斯 → 顺德 → 普罗旺斯 → 大连 */
 export const ROUTE: [number, number][] = [
-  [98.65, 28.45],
+  [99.71, 27.83],
   [19.0402, 47.4979],
   [113.29, 22.8],
   PROVENCE.coords,
