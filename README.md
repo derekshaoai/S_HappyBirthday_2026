@@ -5,7 +5,7 @@
 **流程**：封面 → 世界地图 → 点城市 → 播放视频 → 自动盖章 → 集齐 7 枚 → 打开终章。
 
 - GitHub 仓库：`https://github.com/derekshaoai/S_HappyBirthday_2026`
-- 仓库是 **private**，需要仓库 owner 把你的 GitHub 账号加为 collaborator，或者直接使用 owner 的账号。
+- 仓库是 **public**，可以直接 clone 或下载 ZIP，不需要邀请或登录。
 - 网页不需要后端、数据库或 API key；视频、音乐、地图数据都在仓库里。
 
 ---
@@ -15,9 +15,8 @@
 ### 你需要
 
 1. **Node.js 22 LTS**（Vite 8 需要 Node 20.19+ / 22.12+，推荐直接用 22 LTS）
-2. **Git**
-3. 能访问这个 private repo 的 GitHub 账号
-4. Chrome / Safari / Edge 任意一个现代浏览器
+2. **Git**（也可以不装，直接用 GitHub 的 Download ZIP）
+3. Chrome / Safari / Edge 任意一个现代浏览器
 
 ### 1. 安装 Node.js
 
@@ -39,16 +38,14 @@ git clone https://github.com/derekshaoai/S_HappyBirthday_2026.git
 cd S_HappyBirthday_2026
 ```
 
-如果提示没有权限：
+仓库是 public，clone 不需要登录，也不会提示输入密码。
 
-- 让仓库 owner 在 GitHub 的 **Settings → Collaborators** 里把你的账号加进去
-- 或者用 owner 的账号登录
+如果这台电脑没有安装 Git，也可以：
 
-如果 HTTPS 要求输入密码：
-
-- GitHub 不接受账号密码，请用 **Personal Access Token** 当密码
-- 或者安装 GitHub CLI 后执行 `gh auth login`
-- 也可以用 SSH clone（需要先配置 SSH key）
+1. 打开 https://github.com/derekshaoai/S_HappyBirthday_2026
+2. 点绿色的 **Code** 按钮
+3. 选 **Download ZIP**
+4. 解压后进入文件夹，继续下面的步骤
 
 ### 3. 安装依赖
 
@@ -89,7 +86,7 @@ npm run preview
 可以把仓库部署到 Vercel / Netlify：
 
 1. 在 Vercel / Netlify 里选择 **Import Git Repository**
-2. 授权访问这个 private repo
+2. 选择这个 public 仓库
 3. Build command：`npm run build`
 4. Output directory：`dist`
 5. 部署完成后打开生成的网址
@@ -262,6 +259,6 @@ Vercel / Netlify / Cloudflare Pages 都可以：
 
 ## 说明
 
-- 这是一个 private 生日礼物项目，请不要公开传播或商用。
+- 仓库是 public，方便在任何电脑上直接 clone 或下载；但它仍然是私人的生日礼物项目，请不要公开传播或商用。
 - 角色形象来自《小企鹅宝露露》同人创作；请保留在私人范围内。
 - 仓库没有 `.gitignore` 和 `prompts/`；提示词素材只在 owner 本地保留。
